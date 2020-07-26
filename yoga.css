@@ -1,0 +1,245 @@
+*{
+  padding : 0;
+  margin : 0;
+}
+body{
+  background-color: #f4ecd6;
+  font-family: Copperplate Gothic Bold;
+}
+
+.navbar {
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgba(176, 222, 215, 0.53);
+}
+
+.navbar-brand {
+  transform: translateY(calc(50% - 30px;));
+}
+a {
+    font-weight: bold;
+    color: #474b47;
+    margin-right: 50px;
+    }
+a:hover {
+  background-color: rgb(93, 177, 164);
+  color: white;
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+
+
+/*-----banner*/
+#banner1{
+  background-color: #f4ecd6;
+  color : white;
+  padding-top: 3%;
+  height : auto;
+  font-family: Copperplate Gothic Bold;
+}
+
+#banner2{
+  background-color: #2c514c;
+  color : white;
+  padding-top: 3%;
+  height : auto;
+  font-family: Copperplate Gothic Bold;
+}
+
+#banner3{
+    background-color: #2c514c;
+    background-image:linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.6)), url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height : auto;
+    color : white;
+    height : 90vh;
+    font-family: Copperplate Gothic Bold;
+}
+
+#banner4{
+  background-color: #2c514c;
+}
+
+
+#promo-title{
+  color:#e3c0d3;
+  margin :60px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Berlin Sans FB';
+}
+
+#para{
+    color : #e3c0d3;
+    margin : 20px 80px 0 80px;
+    font-size : 22px;
+    font-weight : 600;
+    padding-bottom: 3%;
+}
+
+#promo-title1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    border : 3px solid #2c514c;
+    border-radius : 50%;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.button {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 60px 80px;
+  cursor: pointer;
+}
+
+.button3{
+  border-radius: 8px;
+  margin-right : 80px;
+}
+
+.button4 {
+  background-color: #f4ecd6;
+  border: none;
+  color: #2c514c;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family : 'Berlin Sans FB';
+  font-size: 25px;
+  margin: 60px 80px;
+  cursor: pointer;
+}
+
+.button4{
+  border-radius: 8px;
+  margin-right : 80px;
+}
+
+#image1{
+  top:0;
+  left:0;
+  height :200px;
+  width : 200px;
+  z-index: 1;
+  display: inline-block;
+  margin-left :auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+#image2{
+  top:100px;
+  left:150px;
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+#image3{
+  top:0;
+  left:0;
+  height :150px;
+  width : 150px;
+  z-index: 1;
+  display: inline-block;
+  margin-left :auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+#image4{
+  top:150px;
+  left:150px;
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#promo-title2{
+    color:#2c514c;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border : 3px solid transparent;
+    border-radius :15px;
+    background : #f4ecd6;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+.register{
+  background-color: #2c514c;
+  border: none;
+  color:#f4ecd6 ;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family : 'Berlin Sans FB';
+  font-size: 25px;
+  margin: 60px 80px;
+  cursor: pointer;
+}
+
+.register{
+  border-radius: 8px;
+  margin-right : 80px;
+}
+
+.home-newsletter {
+padding: 80px 0;
+background-color: #2c514c;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px;
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+}
